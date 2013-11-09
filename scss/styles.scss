@@ -1,0 +1,13 @@
+#lighthouse {
+	position: relative;
+	img {
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		display: none;
+		&.active {
+			display: block;
+		}
+	}
+}
+

@@ -1,0 +1,9 @@
+#lighthouse {
+  position: relative; }
+  #lighthouse img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: none; }
+    #lighthouse img.active {
+      display: block; }
