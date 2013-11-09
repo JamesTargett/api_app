@@ -1,9 +1,15 @@
-#lighthouse {
+#lighthouseimages {
   position: relative; }
-  #lighthouse img {
-    position: absolute;
+  #lighthouseimages img {
     left: 0px;
     top: 0px;
     display: none; }
-    #lighthouse img.active {
+    #lighthouseimages img.active {
       display: block; }
+
+#lighthousecaptions {
+  position: relative; }
+  #lighthousecaptions p {
+    display: none; }
+    #lighthousecaptions p.active {
+      display: inline; }

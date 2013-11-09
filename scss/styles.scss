@@ -1,7 +1,6 @@
-#lighthouse {
+#lighthouseimages {
 	position: relative;
 	img {
-		position: absolute;
 		left: 0px;
 		top: 0px;
 		display: none;
@@ -11,3 +10,12 @@
 	}
 }
 
+#lighthousecaptions {
+	position: relative;
+	p {
+		display: none;
+		&.active {
+			display: inline;
+		}
+	}
+}
